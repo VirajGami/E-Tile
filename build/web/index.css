@@ -1,0 +1,404 @@
+ /*Header CSS*/
+.header-area {
+  border-bottom: 3px solid #eee;
+  box-shadow: none;
+  background-color: #fff;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 90px;
+
+}
+
+
+
+.req{
+  float: right;
+  padding-top: 45px;
+
+}
+
+.navbar{
+  margin-top: 60px;
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 180px;
+  cursor: pointer;
+  
+}
+
+.search {
+  padding-top: 35px;
+  width: 50%;
+  display: flex;
+  padding-left: 100px;
+
+}
+
+
+.searchTerm {
+
+  width: 75%;
+  border: 3px solid #bf833b;
+  border-right: none;
+  padding: 5px;
+  height: 46px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+}
+
+
+
+.searchButton {
+  
+  width: 90px;
+  height: 46px;
+  border: 1px solid #bf833b;
+  background: #bf833b;
+  text-align: center;
+  color: #ffff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.reqbtn:hover{
+  background: #362f27;
+  box-shadow: 7px 6px silver;
+}
+.reqbtn{
+  margin-top: 30px;
+  margin-right:100px ;
+  margin-left: 750px;
+  width: 15%;  
+  box-shadow: 7px 6px #f0d4b6;
+  border: 1px solid #bf833b;
+  background: #bf833b;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px 100px 100px 100px;
+  cursor: pointer;
+  font-size: 20px;
+
+  
+}
+
+
+.login{
+  width: 60px;
+  padding-top: 30px;
+}
+.reg{
+  align-items: right;
+  float: right;
+  padding-right: 25px;
+;
+  
+}
+
+/*Header CSS Over*/
+
+/*NavBar CSS */
+
+
+.nav{
+  background-color: #bf833b;
+  border: 1px solid lightslategray;
+  
+}
+
+
+
+.dropbtn {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #bf833b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #bf833b; color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white; color:#bf833b}
+
+/*Navbar CSS Over*/
+
+/* Banner Start*/
+
+.slider{
+  width: 100%;
+  height: 350px;
+  padding-top: 3px;
+}
+
+/* Banner Over*/
+
+.cat{
+  background-color:#bf833b ;
+  width: 100%;
+  height: 40px;
+  padding-top: 12px;
+  color: white;
+  margin-top: 210px;
+  border: 1px solid lightslategray;
+  padding-left: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.catbox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.catbox ,h2{
+  padding-bottom: 2px;
+  color: #bf833b;
+}
+.cat,.catbox,a{
+  text-decoration: none;
+}
+.catbox :hover{
+ 
+    transition: 0.5s;
+ 
+    transform: scale(1.1);
+  }
+
+.category{
+      display: flex;
+      background-color:#bf833b ;
+      padding-top: 13px;
+      height: 40px;
+      color: white;
+      border: 1px solid lightslategray;
+      padding-left: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .containerindex {
+      box-shadow: 0 6px 10px 0 #bf833b;
+      width: 400px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      display: inline-block;
+      height: 350px;
+      position: relative;
+      margin-left: 15px;
+     
+      max-width: 300px;
+      padding-top: 20px;
+    }
+    
+    .containerindex img {
+     margin-right: 20px;
+      height: auto;
+    }
+    
+    .containerindex .btn,a{
+      color: inherit;
+    }
+
+    .containerindex .btn {
+      position: absolute;
+
+      top: 83%;
+      width: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #bf833b;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 5px;
+      text-align: center;
+    }    
+
+    .containerindex:hover .btn {background-color: darkgray; color:white}
+    .containerindex:hover img{transition: 0.5s; transform: scale(0.9);}
+
+
+    .catbtn{   
+      cursor: pointer;
+      background-color: white;
+      border:none;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      display: inline-block;
+      padding-top: 10px;
+      padding-left: 750px;
+
+     
+    }
+
+    .ftr{
+      margin-top: 150px;
+      background-color: #bf833b;
+      width: 100%;
+      height: 50px;
+
+    }
+    .ftr h4{
+      color: white;
+      padding-top: 15px;
+      padding-left: 600px
+    }
+
+
+
+/*Register form css*/
+
+    .registernform{
+      padding-top: 50px;
+      padding-left: 10%;
+
+    }
+
+    .registerform,.inp{
+    width: 250%;
+    height: 25px;  
+    box-shadow: 7px 6px #f0d4b6;
+    border: 1px solid #c3863c;
+    background: #ffffff;
+    text-align: center;
+    color: #c3863c;
+    border-radius: 100px 100px 100px 100px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+    }
+
+
+    .registerform,.inpsub{
+    width: 172%;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 7px 6px #f0d4b6;
+    border: 1px solid #c3863c;
+    background: #c3863c;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 100px 100px 100px 100px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    }
+
+
+
+    .registerform,.lbl{
+      color: #c3863c;
+      font-size: 20px;
+      font-family: monospace;
+    }
+    .registerform,h1{
+      color: #c3863c;
+      font-family: cursive;
+      font-style: oblique;
+      text-decoration: underline;
+      text-shadow: 2px 1px black;
+    }
+
+    .inpsub:hover {background-color: #362f27; color: white;}
+
+    .rlink{
+      margin-left: 320px;
+      color: #362f27;
+    }
+
+
+    .detailtablediv{
+    
+    }
+    .detailtable{
+    border: 1px solid #c3863c;
+    width: 40%;
+    background-color: #ECF0F1;
+    padding: 10px
+    
+    }
+
+
+
+  .detailtablethtd{
+      text-align: center;
+  padding: 16px;
+ 
+    }
+
+    .detailimagediv{
+      width: 20%;
+      padding-right: 500px;
+      float: left;
+
+    }
+
+    .detailimage{
+      width: 120%;
+      padding-right: 500px;
+      float: left;
+      margin-left: 350px;
+    }
+
+    .tableheading{
+      color: white;
+    font-size: 20px;
+    }
+    th{
+      background-color: #c3863c;
+    }
+    
+    /*css for add requirment form*/
+    .requ {
+
+        border: 3px solid #bf833b;
+        width: 750px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+  }
